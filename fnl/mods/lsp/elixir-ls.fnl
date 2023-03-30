@@ -2,4 +2,5 @@
   {autoload {lsp mods.lsp.lsp}})
 
 (lsp.use :elixirls
-         {:opts {:cmd ["elixir-ls"] }})
+         {:opts {:cmd ["/home/mrmizz/elixir-ls/language_server.sh"] 
+                 :settings {:elixirLS {:dialyzerEnabled false} }}})
