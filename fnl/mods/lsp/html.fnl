@@ -6,7 +6,4 @@
                             :heex
                             :elixir
                             :eelixir
-                            :html-eex]
-                :init_options {:userLanguages {:elixir "html-eex"
-                                               :eelixir "html-eex"
-                                               :heex "html-eex"} }}})
+                            :html-eex] }})
