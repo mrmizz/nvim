@@ -179,7 +179,7 @@ Use `use` function provided by `mods.lsp.lsp` module to add a new langauge serve
 (let [runtime_path (vim.split package.path ";")]
   (table.insert runtime_path "lua/?.lua")
   (table.insert runtime_path "lua/?/init.lua")
-  (lsp.use :sumneko_lua
+  (lsp.use :lua_ls
            {:opts {:settings {:Lua {:runtime {:version "LuaJIT"
                                               :path runtime_path}
                                     :diagnostics {:globals ["vim"]}

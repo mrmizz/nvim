@@ -45,7 +45,7 @@
         opts (or (. config :opts) {})
         hook (. config :hook)]
     (tset opts :on_attach (make-on-attach hook))
-    (tset opts :capabilities (cmp-lsp.update_capabilities (vim.lsp.protocol.make_client_capabilities)))
+    (tset opts :capabilities (cmp-lsp.default_capabilities (vim.lsp.protocol.make_client_capabilities)))
     (server.setup opts))
   nil)
 
