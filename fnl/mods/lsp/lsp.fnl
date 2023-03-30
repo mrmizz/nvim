@@ -51,7 +51,6 @@
 
 (let [servers [:bashls
                :clangd
-               :html
                :zls
                :hls
                :emmet_ls
@@ -67,4 +66,4 @@
 (require :mods.lsp.tailwindcss)
 (require :mods.lsp.rust-analyzer)
 (require :mods.lsp.lua-language-server)
-
+(require :mods.lsp.html)
