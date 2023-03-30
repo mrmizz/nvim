@@ -68,4 +68,3 @@
 (require :mods.lsp.rust-analyzer)
 (require :mods.lsp.lua-language-server)
 
-(require :mods.lsp.opal)
