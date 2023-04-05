@@ -71,6 +71,7 @@
   :jose-elias-alvarez/nvim-lsp-ts-utils {}
   :simrat39/rust-tools.nvim {}
   :elixir-editors/vim-elixir {}
+  :mhinz/vim-mix-format {}
   :vim-crystal/vim-crystal {}
   :wlangstroth/vim-racket {}
   :Olical/conjure {})

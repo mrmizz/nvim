@@ -20,6 +20,11 @@
 (set vim.o.smartcase true)
 (set vim.o.relativenumber true)
 
+;; elixir format on save
+(set vim.g.mix_format_on_save 1)
+(set vim.g.mix_format_silent_errors 1)
+(set vim.g.mix_format_options "--check-equivalent")
+
 ;; switch off relative number in insert mode
 (vim.cmd "autocmd InsertEnter * :set norelativenumber")
 (vim.cmd "autocmd InsertLeave * :set relativenumber")
